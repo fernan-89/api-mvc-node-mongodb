@@ -4,7 +4,8 @@
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "mongoose": "^8.8.2",
-    "mongoose-sequence": "^6.0.1"
+    "mongoose-sequence": "^6.0.1",
+    "mongos": "^0.0.0"
   },
   "name": "api-mvc-node-mongodb",
   "version": "1.0.0",
@@ -15,5 +16,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Isso iniciará o servidor na porta 3000 por padrão.",
+  "devDependencies": {}
 }

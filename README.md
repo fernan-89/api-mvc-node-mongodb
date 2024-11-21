@@ -6,10 +6,10 @@ A API fornece os seguintes endpoints para gerenciar dados de usuários:
 
 Métodos GET:
 
- #   /api/users: Retorna uma lista de todos os usuários.
- #   /api/usercount: Retorna o número total de usuários.
- #   /api/users/:clientId: Recupera um usuário específico pelo seu ID.
- #   /api/username/:name: Recupera um usuário pelo seu nome de usuário (sem distinção entre maiúsculas e minúsculas).
+    /api/users: Retorna uma lista de todos os usuários.
+    /api/usercount: Retorna o número total de usuários.
+    /api/users/:clientId: Recupera um usuário específico pelo seu ID.
+    /api/username/:name: Recupera um usuário pelo seu nome de usuário (sem distinção entre maiúsculas e minúsculas).
 
 Método POST:
 
