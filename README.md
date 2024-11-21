@@ -1,5 +1,5 @@
 # api-mvc-node-mongodb
-certificquesse de ter instlado na maquina os pacotes necessarios
+certifique-se de ter instalado na máquina os pacotes necessários
 > npm install mongos express body-parser mongoose-sequence <p>
 
 Para inicar o serviço, navegue até a pasta do projeto e execute o comando
@@ -11,17 +11,10 @@ A API fornece os seguintes endpoints para gerenciar dados de usuários:
 
 Métodos GET:
 
-<<<<<<< HEAD
-    /api/users: Retorna uma lista de todos os usuários.
-    /api/usercount: Retorna o número total de usuários.
-    /api/users/:clientId: Recupera um usuário específico pelo seu ID.
-    /api/username/:name: Recupera um usuário pelo seu nome de usuário (sem distinção entre maiúsculas e minúsculas).
-=======
- > /api/users: Retorna uma lista de todos os usuários.<p>
+> /api/users: Retorna uma lista de todos os usuários.<p>
    /api/usercount: Retorna o número total de usuários. <p>
    /api/users/:clientId: Recupera um usuário específico pelo seu ID. <p>
    /api/username/:name: Recupera um usuário pelo seu nome de usuário (sem distinção entre maiúsculas e minúsculas).<p>
->>>>>>> 1e704a29d1ddc2688a48233ca20d6d1020444065
 
 Método POST:
 
