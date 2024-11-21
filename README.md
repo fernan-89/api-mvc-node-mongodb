@@ -1,30 +1,27 @@
-"# api-mvc-node-mongodb" 
+# api-mvc-node-mongodb
+Isso iniciará o servidor na porta 3000 por padrão.
 
-This will start the server on port 3000 by default.
+Endpoints da API
+A API fornece os seguintes endpoints para gerenciar dados de usuários:
 
-## API Endpoints
+Métodos GET:
 
-The API provides the following endpoints for managing user data:
+/api/users: Retorna uma lista de todos os usuários.
 
-GET Methods:
+/api/usercount: Retorna o número total de usuários.
 
-    /api/users: Returns a list of all users.
-    /api/usercount: Returns the total number of users.
-    /api/users/:clientId: Retrieves a specific user by their ID.
-    /api/username/:name: Retrieves a user by their username (case-insensitive).
+/api/users/:clientId: Recupera um usuário específico pelo seu ID.
 
-POST Method:
+/api/username/:name: Recupera um usuário pelo seu nome de usuário (sem distinção entre maiúsculas e minúsculas).
 
-    /api/users: Creates a new user. The request body should contain the user data.
+Método POST:
 
-PUT Method:
+/api/users: Cria um novo usuário. O corpo da requisição deve conter os dados do usuário.
 
-    /api/users/:clientId: Updates an existing user's data. The request body should contain the updated user information.
+Método PUT:
 
-DELETE Method:
+/api/users/:clientId: Atualiza os dados de um usuário existente. O corpo da requisição deve conter as informações atualizadas do usuário.
 
-    /api/users/:clientId: Deletes a user by their ID.
+Método DELETE:
 
-## Error Handling:
-
-The API returns appropriate error codes for failed requests, such as 400 (Bad Request) for invalid data, 404 (Not Found) for non-existent resources, and 500 (Internal Server Error) for unexpected issues.
+/api/users/:clientId: Exclui um usuário pelo seu ID.
