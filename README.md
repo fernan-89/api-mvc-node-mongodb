@@ -4,6 +4,8 @@ certifique-se de ter instalado na máquina os pacotes necessários
 
 Para inicar o serviço, navegue até a pasta do projeto e execute o comando
 
+> node index.js
+
 Endpoints da API
 A API fornece os seguintes endpoints para gerenciar dados de usuários:
 > npm init -y <p>
