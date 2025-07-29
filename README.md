@@ -1,6 +1,3 @@
-Com certeza\! Vou aprimorar o README que você me forneceu, tornando-o mais completo, profissional e fácil de entender para qualquer desenvolvedor que se depare com o seu projeto.
-
------
 
 # API MVC com Node.js e MongoDB
 
